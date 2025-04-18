@@ -14,7 +14,6 @@ def capture_printed_recap(func, *args, **kwargs):
 
 
 from text import get_tesla_sentiment_insight, dominant_emotion, recap, format_post, format_news
-from Visualisation import visualize_sentiment as vs_function
 
 
 # Set page config

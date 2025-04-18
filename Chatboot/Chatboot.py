@@ -1,3 +1,4 @@
+'''
 import pandas as pd
 from text import get_tesla_sentiment_insight, dominant_emotion, recap
 from Visualisation import visualize_sentiment
@@ -101,4 +102,4 @@ while True:
         continue
 
     # Fallback
-    print("Bot: 🤖 I can show Tesla sentiment, Reddit emotions, news vibes, or charts! Try asking about 'summary', 'chart', 'market', or 'report'.")
+    print("Bot: 🤖 I can show Tesla sentiment, Reddit emotions, news vibes, or charts! Try asking about 'summary', 'chart', 'market', or 'report'.")'''

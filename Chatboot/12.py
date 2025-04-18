@@ -81,8 +81,8 @@ def streamlit_visualize_sentiment(df, source="reddit", viz="pie"):
 # === Main App Functions ===
 
 def load_data():
-        reddit_df = pd.read_csv("../reddit_tesla_sentiment.csv")
-        news_df = pd.read_csv("../tesla_news_emotion_summary.csv")
+        reddit_df = pd.read_csv("reddit_tesla_sentiment.csv")
+        news_df = pd.read_csv("tesla_news_emotion_summary.csv")
 
         return reddit_df, news_df
 
